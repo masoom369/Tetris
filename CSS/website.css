@@ -1,0 +1,78 @@
+@font-face {
+	font-family: "Material Icons";
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2");
+  }
+  
+  html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-size: cover;
+	background-repeat: round;
+	border: 3px solid #e6f7ff; /* Border matching body */
+	scroll-behavior: smooth;
+  }
+  
+  body {
+	position: relative;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas: auto 1fr auto;
+	margin: 0;
+	padding: 0;
+	background-color: #e6f7ff; /* Very light blue */
+	box-sizing: border-box;
+	text-align: center;
+  }
+  
+  .gameHolder {
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	background-color: #f0f8ff; /* Light blue background */
+	max-width: 75%;
+	margin: 0 auto;
+	height: auto;
+  }
+  
+  .sectionContainer {
+	position: relative;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #003366; /* Dark blue text */
+	background-color: #fff; /* White background for contrast */
+	border-radius: 20px; /* Softer rounded corners */
+	max-width: 100%;
+	margin: auto;
+	margin-bottom: 40px;
+	padding: 40px 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  }
+  
+  #tetrisContainer {
+	position: relative;
+	height: auto;
+	width: fit-content;
+	text-align: center;
+  }
+  
+  .tetrisButton {
+	position: absolute;
+	color: #c8102e; /* Red for button text */
+	font-family: "VT323";
+	background-color: transparent;
+	border: none;
+	z-index: 1;
+  }
+  
+  .tetrisButton:hover {
+	text-decoration: underline;
+	cursor: pointer;
+  }
+  
+  #tetris {
+	border: 2px solid #003366; /* Dark blue border */
+	position: relative;
+  }
+  
